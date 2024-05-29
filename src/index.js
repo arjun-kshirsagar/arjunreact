@@ -8,6 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* this is the starting point for the react application, if you remove this app then the screen gets cleared */}
   </React.StrictMode>
 );
 
